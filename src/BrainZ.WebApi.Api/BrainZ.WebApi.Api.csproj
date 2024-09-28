@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="5.0.0-beta-*" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
@@ -16,4 +17,7 @@
     <ProjectReference Include="..\BrainZ.WebApi.Infrastructure\BrainZ.WebApi.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="../../GlobalUsings.cs" Link="GlobalUsings.cs" />
+  </ItemGroup>
 </Project>

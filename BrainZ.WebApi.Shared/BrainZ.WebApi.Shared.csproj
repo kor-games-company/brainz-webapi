@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="5.0.0-beta-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="../GlobalUsings.cs" Link="GlobalUsings.cs" />
+  </ItemGroup>
 </Project>

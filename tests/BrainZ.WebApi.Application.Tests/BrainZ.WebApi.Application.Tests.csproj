@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="5.0.0-beta-*" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
@@ -27,4 +28,7 @@
     <ProjectReference Include="..\..\src\BrainZ.WebApi.Domain\BrainZ.WebApi.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Include="../../GlobalUsings.cs" Link="GlobalUsings.cs" />
+  </ItemGroup>
 </Project>
